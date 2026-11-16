@@ -1,1 +1,11 @@
 /* Add CSS Styling */
+.odd {
+    background-color: #c89090;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
