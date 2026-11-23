@@ -30,7 +30,13 @@ body {
 
 /* working assignment portion here */
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .content-container {
+  flex: 1;
   display: flex;
 }
 
@@ -42,9 +48,6 @@ body {
   padding-left: 16px;
 }
 
-.header, .footer {
-  justify-content: space-between;
-}
 
 .footer {
   display: flex;
@@ -55,10 +58,7 @@ body {
 
 
 .sidebar {
-  display: flex;
-  width: 300px;
   flex-shrink: 0;
-  font-size: 24px;
   padding: 16px;
 }
 
@@ -72,20 +72,15 @@ li {
 }
 
 .card-container {
+  padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  padding: 48px;
-  gap: 16px;
+  gap: 32px;
 }
 
 .card {
-  display: flex;
-  padding: 48px;
-  flex-wrap: wrap;
-  flex: 1 1 300px;
-  max-width: 300px;
-  min-height: 300px;
-  flex-direction: column;
+  padding: 16px;
+  width: 300px;
 }
 
 
